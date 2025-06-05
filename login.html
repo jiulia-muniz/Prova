@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br"> <!-- Define o idioma da página como português brasileiro -->
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Login</title>
-  <link href="style.css" rel="stylesheet" />
+  <meta charset="UTF-8" /> <!-- Suporte a caracteres especiais como acentos -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Responsividade em dispositivos móveis -->
+  <title>Login</title> <!-- Título da aba do navegador -->
+  <link href="style.css" rel="stylesheet" /> 
 </head>
 <body>
-  <main class="containerLogin">
-    <section class="cartaoLogin">
-      <h1 class="tituloLogin">Login</h1>
+  <main class="containerLogin"> <!-- Container principal do conteúdo da página -->
+    <section class="cartaoLogin"> 
+      <h1 class="tituloLogin">Login</h1> 
+      <!-- Formulário de login que redireciona para a página inicial após o envio -->
       <form action="./index.html">
         <label for="email">E-mail</label>
         <input type="email" id="email" name="email"/>
-
+        
         <label for="senha">Senha</label>
         <input type="password" id="senha" name="senha"/>
-
+        
         <button type="submit" class="botaoPrincipal">Entrar</button>
       </form>
+      <!-- Link para voltar à página inicial -->
       <a href="./index.html" class="linkVoltar">Voltar</a>
     </section>
   </main>

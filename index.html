@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<!-- Define que o documento é HTML5 -->
+<!-- Define o tipo de documento como HTML5 -->
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
+    <!-- Garante que o site fique responsivo em diferentes tamanhos de tela -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Importa o arquivo CSS externo para estilização -->
     <link rel="stylesheet" href="style.css">
+    
+    <!-- Importa ícones da biblioteca Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
     <title>Informações</title>
 </head>
 
 <body>
+    <!-- Barra de navegação principal com links de formação acadêmica e login -->
     <nav class="navegacao-principal">
         <ul class="navegacao-link">
             <li>Master in Computer Science</li>
@@ -20,22 +27,22 @@
         </ul>
     </nav>
 
+    <!-- Cabeçalho com imagem e título -->
     <header class="cabecalho">
         <div class="imagem-header">
             <img src="./img/mm3.jpg" alt="imagem de uma pessoa" class="imagem" />
-
         </div>
         <div class="inicio-cabecalho">
             <h1 class="titulo-header">Mary Morais - SENAI Teacher</h1>
         </div>
-
     </header>
 
-
     <main>
-
+        <!-- Seção principal com filmes favoritos -->
         <section class="secao-principal">
             <h1 class="titulo-principal">My favorite movies</h1>
+
+            <!-- Primeiro filme: Moulin Rouge -->
             <div class="primeiro-filme">
                 <img src="./img/moulin.jpg" alt="imagem do filme Moulin Rouge" class="imagem-filmeUm">
                 <div class="texto-filmeUm">
@@ -43,10 +50,10 @@
                     <p>The film tells the story of a young English poet/writer, Christian, who falls in love with the
                         star of the Moulin Rouge, cabaret actress and courtesan Satine. It uses the musical setting of
                         the Montmartre Quarter of Paris, France</p>
-
                 </div>
             </div>
 
+            <!-- Segundo filme: Mononoke Hime -->
             <div class="segundo-filme">
                 <img src="./img/mononoke.jpg" alt="imagem do filme Moulin Rouge" class="imagem-filmeDois">
                 <div class="texto-filmeDois">
@@ -57,20 +64,20 @@
                         or もののけ, is not a name, but a Japanese word for supernatural, shape-shifting beings that possess
                         people and cause suffering, disease, or death.
                     </p>
-
                 </div>
             </div>
 
+            <!-- Terceiro filme: Your Name -->
             <div class="terceiro-filme">
                 <img src="./img/your.jpg" alt="imagem do filme Moulin Rouge" class="imagem-filmeTres">
                 <div class="texto-filmeTres">
                     <h1>Your Name</h1>
                     <p>Your Name tells the story of Taki, a high school boy in Tokyo and Mitsuha, a high school girl in
                         a rural town, who suddenly and inexplicably begin to swap bodies.</p>
-
                 </div>
             </div>
 
+            <!-- Quarto filme: Crank -->
             <div class="quarto-filme">
                 <img src="./img/crank.jpg" alt="imagem do filme Moulin Rouge" class="imagem-filmeQuatro">
                 <div class="texto-filmeQuatro">
@@ -79,12 +86,12 @@
                         keep his adrenaline flowing constantly in order to keep himself alive. He does so by various
                         methods including taking drugs and getting into fights, while he tries to track down the man who
                         poisoned him.</p>
-
                 </div>
             </div>
-
         </section>
     </main>
+
+    <!-- Seção lateral com informações pessoais e interesses -->
     <aside class="textoCentralizado">
         <h2><b>Outros Interesses</b></h2>
         <p>Falando um pouco mais sobre mim: <br /> Mais do que professora, uma otaku fedida e amante de maquiagem. <span
@@ -96,32 +103,30 @@
         </ul>
     </aside>
 
-    
-        <footer>
-            <ul class="conteudo-lista">
-                <li>
-                    <a href="https://www.facebook.com/" target="_blank">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                        <span>Facebook</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/" target="_blank">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                        <span>LinkedIn</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://bsky.app/" target="_blank">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <span>Instagram</span>
-                    </a>
-                </li>
-            </ul>
-            <p>By: Mary Morais TM</p>
-        </footer>
-
-        </div>
+    <!-- Rodapé com links para redes sociais -->
+    <footer>
+        <ul class="conteudo-lista">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <span>Facebook</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/" target="_blank">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://bsky.app/" target="_blank">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <span>Instagram</span>
+                </a>
+            </li>
+        </ul>
+        <p>By: Mary Morais TM</p>
+    </footer>
 
 </body>
 
